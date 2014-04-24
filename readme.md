@@ -100,6 +100,8 @@ You can fully configure Sublime Text using JSON-based settings files, making it 
 
 ## Themes
 
+ST3 also gives you the option to change the overall theme and color schemes to better suit your personality. Or, if you're not artistically inclined, you can download one of the various custom [themes](https://sublime.wbond.net/browse/labels/theme) designed by the Sublime community.
+
 ## Packages
 
 anacanda
