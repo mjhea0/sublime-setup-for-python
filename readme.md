@@ -24,7 +24,8 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
   $ subl
   ```
 
-  If that didn't work, you probably need to add */bin* to your Path:
+  If that didn't work, you probably need to add */bin* to your Path:.
+
 
   ```bash
   $ echo "export PATH=~/bin:$PATH" >> ~/.profile
@@ -61,11 +62,11 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
 
 ### Install Package Control
 
-To begin taking advantage of the various [packages](https://sublime.wbond.net/) for extending Sublime's functionality, you need to install the Package Control - which needs to be installed manually. Once installed, you can use Package Control to install all other packages.
+To begin taking advantage of the various [packages](https://sublime.wbond.net/) for extending Sublime's functionality, you need to install the package manager called **Package Control** - which needs to be installed manually. Once installed, you can use Package Control to install/remove/upgrade all other ST3 packages.
 
-1. To install click **View > Show Console**, and then paste the Python code for Sublime Text 3 found [here](https://sublime.wbond.net/installation).
+1. To install click **View > Show Console**, paste the Python code for Sublime Text 3 found [here](https://sublime.wbond.net/installation#st3), and then reboot ST3.
 
-2. You can install packages by using keyboard shortcut **cmd+shift+p**. Start typing **install** until "Package Control: Install Package" appears. Press **enter** and search for available packages. 
+2. You can now install packages by using the keyboard shortcut **cmd+shift+P**. Start typing **install** until "Package Control: Install Package" appears. Press **enter** and search for available packages. 
 
 ### Create a Settings File
 
