@@ -56,6 +56,12 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
   ```
 
 ### Install Package Control
+
+To begin taking advantage of the various [packages](https://sublime.wbond.net/) packages for extending Sublime's functionality, you need to install the package manager. You need to install this manually, then you can use Package Control to install all other packahes.
+
+https://sublime.wbond.net/installation
+
+
 ### Create a Settings File
 
 ## Themes
