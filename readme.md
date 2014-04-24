@@ -12,11 +12,13 @@ After downloading ST3 ...
 
 Like the `mate` command for TextMate, Sublime Text includes a command like tool called [`subl`](http://www.sublimetext.com/docs/3/osx_command_line.html) that allows you to pen a file in the from the Mac command line. 
 
-To enable this command, create symbolic link to the subl binary:
+To enable this command, create a symbolic link to the subl binary:
 
 ```bash
-$ ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+$ sudo ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 ```
+
+> If that command doesn't work, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
 
 
 2. Install Package Control
