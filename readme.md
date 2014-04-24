@@ -18,10 +18,10 @@ To enable this command, create a symbolic link to the subl binary:
 $ ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
 
-Ensure that the link works by accessing the help file:
+Ensure that the link works by opening Sublime:
 
 ```bash
-$ subl --help
+$ subl
 ```
 
 If that didn't work, you probably need to add */bin* to your path:
@@ -30,25 +30,30 @@ If that didn't work, you probably need to add */bin* to your path:
 $ echo "export PATH=~/bin:$PATH" >> ~/.profile
 ```
 
-Now you can open a file or folder by adding the path as an argument on the command line. 
+If you are still having trouble, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
 
-For example, this command opens a file called *test.txt*:
+Now you can open a file or directory by adding the path as an argument on the command line. 
+
+For example:
 
 ```bash
+# open the current directory
+subl .
+
+#open directory called tests
+$ subl ~/Documents/test
+
+# open a file called text.txt
 $ subl test.txt
 ```
 
-And this command opens a directory called *test*:
+> If there are spaces in the path, you must surround the entire path in double quotes.
+
+To view all the commands, open up the help file: 
 
 ```bash
-$ subl ~/Documents/test
+$ subl --help`
 ```
-
-*If there are spaces in the path, you must surround the entire path in double quotes.*
-
-
-
-> If that command doesn't work, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
 
 
 2. Install Package Control
