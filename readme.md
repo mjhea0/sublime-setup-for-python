@@ -34,9 +34,7 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
 
   If you are still having trouble, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
 
-3. Now you can open a file or directory by adding the path as an argument on the command line. 
-
-  For example:
+3. Now you can open a file or directory using the following commands: 
 
   ```bash
   # open the current directory
@@ -57,8 +55,8 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
   $ subl --help`
   ```
 
-2. Install Package Control
-3. Create a Settings File
+### Install Package Control
+### Create a Settings File
 
 ## Themes
 
