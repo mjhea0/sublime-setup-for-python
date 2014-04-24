@@ -66,14 +66,14 @@ To begin taking advantage of the various [packages](https://sublime.wbond.net/) 
 
 1. To install copy the Python code for Sublime Text 3 found [here](https://sublime.wbond.net/installation#st3). Click **View > Show Console** to open the ST3 console. Paste the code into the console. Press **enter**. Reboot ST3.
 
-2. You can now install packages by using the keyboard shortcut **cmd+shift+P**. Start typing **install** until "Package Control: Install Package" appears. Press **enter** and search for available packages. 
+2. You can now install packages by using the keyboard shortcut **cmd+shift+P**. Start typing **install** until *Package Control: Install Package* appears. Press **enter** and search for available packages. 
 
 3. Some other relevant commands are:
 
-   - *"List Packages"* shows all your installed packages
-   - *"Remove Packages"* removes a specific package  
-   - *"Upgrade Package"* upgrades a specific package
-   - *"Upgrade/Overwrite All Packages"* upgrades all your installed packages
+   - *List Packages* shows all your installed packages
+   - *Remove Packages* removes a specific package  
+   - *Upgrade Package* upgrades a specific package
+   - *Upgrade/Overwrite All Packages* upgrades all your installed packages
 
    Check out the official [documentation](https://sublime.wbond.net/docs/usage) to view more commands.
 
