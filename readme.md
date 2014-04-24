@@ -83,7 +83,7 @@ You can fully configure Sublime Text using JSON-based settings files, making it 
 
 1. To set up a base file click **Sublime Text > Preferences > Settings - User**. Add an empty array to the file and add your settings within the array, including a comma after each one but the last.
 
-For example:
+  For example:
 
   ```json
   {
