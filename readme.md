@@ -100,7 +100,7 @@ You can fully configure Sublime Text using JSON-based settings files, making it 
 
 ## Themes
 
-ST3 also gives you the option to change the overall theme and color schemes to better suit your personality. Or, if you're not artistically inclined, you can download one of the various custom [themes](https://sublime.wbond.net/browse/labels/theme) designed by the Sublime community through Package Control. Check out [ColorSublime](http://colorsublime.com/) to preview themes before installing them.
+ST3 also gives you the option to change the overall theme to better suit your personality. Design your own. Or, if you're not artistically inclined, you can download one of the various custom [themes](https://sublime.wbond.net/browse/labels/theme) designed by the Sublime community through Package Control. Check out [ColorSublime](http://colorsublime.com/) to preview themes before installing them.
 
 The ever popular [Soda Dark Theme](https://sublime.wbond.net/packages/Theme%20-%20Soda) and the minimal [Flatland](https://sublime.wbond.net/packages/Theme%20-%20Flatland) are two of my personal favorites.
 
@@ -115,12 +115,20 @@ After installing a theme, make sure to update your base settings:
 
 ## Packages
 
+Besides the themes, I take advantage of the following packages to speed up productivity.
+
+## SideBarEnhancements
+
+SideBarEnhancements extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as "New file" and "Duplicate" are essential and should be part of ST3 out of the box - but they aren't. The "Delete" option alone makes it worth downloading. This feature simply sends files to Trash, which may seem trivial but if you delete a file without it, there's no way to recover said file unless your using a version control system. Download this now!
+
 anacanda
 djanro
 gitgutter
 git
 requirements.txt
 VenvPy3.sublime-build
+SFTP
+
 
 ## Custom Commands
 
