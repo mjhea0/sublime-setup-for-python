@@ -126,6 +126,9 @@ VenvPy3.sublime-build
 5. Goto Symbols
 6. Multi-Edit
 7. Code Snippets
+8. Vim mode (perfect for pairing)
+9. Saved history if you accidently close
+
 
 ## Keyboard Shortcuts
 
