@@ -79,6 +79,8 @@ To begin taking advantage of the various [packages](https://sublime.wbond.net/) 
 
 ### Create a Settings File
 
+1. In order to change the [default settings](http://www.sublimetext.com/docs/3/settings.html), click **Sublime Text > Preferences > Settings - User**. Add an empty array to the file and add your settings within the array, adding a comma after each one but the last.
+
 ## Themes
 
 ## Packages
