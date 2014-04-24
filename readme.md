@@ -40,7 +40,7 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
   # open the current directory
   $ subl .
 
-  #open directory called tests
+  #open a directory called tests
   $ subl ~/Documents/test
 
   # open a file called text.txt
