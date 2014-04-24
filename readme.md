@@ -10,7 +10,7 @@ After downloading ST3 ...
 
 ### Install the `subl` command line tool
 
-Like the `mate` command for TextMate, Sublime Text includes a command line tool called [`subl`](http://www.sublimetext.com/docs/3/osx_command_line.html) that allows you to pen a file in the from the Mac command line. 
+Like the `mate` command for TextMate, Sublime Text includes a command line tool called [`subl`](http://www.sublimetext.com/docs/3/osx_command_line.html) that allows you to open a file from the command line. 
 
 To enable this command, create a symbolic link to the subl binary:
 
