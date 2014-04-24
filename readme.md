@@ -119,7 +119,7 @@ Besides the themes, I take advantage of the following packages to speed up produ
 
 ## SideBarEnhancements
 
-*[SideBarEnhancements]*(https://sublime.wbond.net/packages/SideBarEnhancements) extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as "New file" and "Duplicate" are essential and should be part of ST3 out of the box - but they aren't. The "Delete" option alone makes it worth downloading. This feature simply sends files to the Trash, which may seem trivial but if you delete a file without it, there's no way to recover said file unless you're using a version control system.
+**[SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)** extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as "New file" and "Duplicate" are essential and should be part of ST3 out of the box - but they aren't. The "Delete" option alone makes it worth downloading. This feature simply sends files to the Trash, which may seem trivial but if you delete a file without it, there's no way to recover said file unless you're using a version control system.
 
 Download this now!
 
