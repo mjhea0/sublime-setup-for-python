@@ -12,49 +12,50 @@ After downloading ST3 ...
 
 Like the `mate` command for TextMate, Sublime Text includes a command line tool called [`subl`](http://www.sublimetext.com/docs/3/osx_command_line.html) that allows you to open a file from the command line. 
 
-To enable this command, create a symbolic link to the subl binary:
+1. To enable this command, create a symbolic link to the subl binary:
 
-```bash
-$ ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-```
+  ```bash
+  $ ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+  ```
 
-Ensure that the link works by opening Sublime:
+2. Ensure that the link works by opening Sublime:
 
-```bash
-$ subl
-```
+  ```bash
+  $ subl
+  ```
 
-If that didn't work, you probably need to add */bin* to your path:
+  If that didn't work, you probably need to add */bin* to your path:
 
-```bash
-$ echo "export PATH=~/bin:$PATH" >> ~/.profile
-```
+  ```bash
+  $ echo "export PATH=~/bin:$PATH" >> ~/.profile
+  ```
 
-If you are still having trouble, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
+  Then repeat step one.
 
-Now you can open a file or directory by adding the path as an argument on the command line. 
+  If you are still having trouble, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
 
-For example:
+3. Now you can open a file or directory by adding the path as an argument on the command line. 
 
-```bash
-# open the current directory
-$ subl .
+  For example:
 
-#open directory called tests
-$ subl ~/Documents/test
+  ```bash
+  # open the current directory
+  $ subl .
 
-# open a file called text.txt
-$ subl test.txt
-```
+  #open directory called tests
+  $ subl ~/Documents/test
 
-> If there are spaces in the path, you must surround the entire path in double quotes.
+  # open a file called text.txt
+  $ subl test.txt
+  ```
 
-To view all the commands, open up the help file: 
+  > If there are spaces in the path, you must surround the entire path in double quotes.
 
-```bash
-$ subl --help`
-```
+  To view all the commands, open up the help file: 
 
+  ```bash
+  $ subl --help`
+  ```
 
 2. Install Package Control
 3. Create a Settings File
