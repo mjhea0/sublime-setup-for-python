@@ -100,9 +100,18 @@ You can fully configure Sublime Text using JSON-based settings files, making it 
 
 ## Themes
 
-ST3 also gives you the option to change the overall theme and color schemes to better suit your personality. Or, if you're not artistically inclined, you can download one of the various custom [themes](https://sublime.wbond.net/browse/labels/theme) designed by the Sublime community through Package Control.
+ST3 also gives you the option to change the overall theme and color schemes to better suit your personality. Or, if you're not artistically inclined, you can download one of the various custom [themes](https://sublime.wbond.net/browse/labels/theme) designed by the Sublime community through Package Control. Check out [ColorSublime](http://colorsublime.com/) to preview themes before installing them.
 
-The ever popular [Soda Dark Theme](https://sublime.wbond.net/packages/Theme%20-%20Soda) is my personal favorite.
+The ever popular [Soda Dark Theme](https://sublime.wbond.net/packages/Theme%20-%20Soda) and the minimal [Flatland](https://sublime.wbond.net/packages/Theme%20-%20Flatland) are two of my personal favorites.
+
+After installing a theme, make sure to update your base settings:
+
+```json
+{
+  "theme": "Flatland Dark.sublime-theme",
+  "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme"
+}
+```
 
 ## Packages
 
