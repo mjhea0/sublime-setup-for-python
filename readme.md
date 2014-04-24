@@ -38,7 +38,7 @@ For example:
 
 ```bash
 # open the current directory
-subl .
+$ subl .
 
 #open directory called tests
 $ subl ~/Documents/test
