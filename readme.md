@@ -47,7 +47,11 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
   $ subl test.txt
   ```
 
-  If there are spaces in the path, you must surround the entire path in double quotes - i.e., `"subl ~/Documents/test/my test file.txt"`
+  If there are spaces in the path, you must surround the entire path in double quotes: 
+
+  ```bash
+  $ subl "~/Documents/test/my test file.txt"
+  ```
 
   To view all the commands, open up the help file: 
 
