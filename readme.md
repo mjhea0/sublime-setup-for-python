@@ -6,11 +6,11 @@
 
 ## Setting up ST3
 
-After downloading ST3 ... 
+After downloading ST3 ...
 
 ### Install the `subl` command line tool
 
-Like the `mate` command for TextMate, Sublime Text includes a command line tool called **[`subl`](http://www.sublimetext.com/docs/3/osx_command_line.html)** that allows you to open a file from the command line. 
+Like the `mate` command for TextMate, Sublime Text includes a command line tool called **[`subl`](http://www.sublimetext.com/docs/3/osx_command_line.html)** that allows you to open a file from the command line.
 
 1. To enable this command, create a symbolic link to the subl binary:
 
@@ -35,7 +35,7 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
 
   *If you are still having trouble, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).*
 
-3. Now you can open a file or directory using the following commands: 
+3. Now you can open a file or directory using the following commands:
 
   ```bash
   # open the current directory
@@ -48,13 +48,13 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
   $ subl test.txt
   ```
 
-  If there are spaces in the path, you must surround the entire path in double quotes: 
+  If there are spaces in the path, you must surround the entire path in double quotes:
 
   ```bash
   $ subl "~/Documents/test/my test file.txt"
   ```
 
-  To view all the commands, open up the help file: 
+  To view all the commands, open up the help file:
 
   ```bash
   $ subl --help`
@@ -66,12 +66,12 @@ To begin taking advantage of the various [packages](https://sublime.wbond.net/) 
 
 1. To install copy the Python code for Sublime Text 3 found [here](https://sublime.wbond.net/installation#st3). Click **View > Show Console** to open the ST3 console. Paste the code into the console. Press **enter**. Reboot ST3.
 
-2. You can now install packages by using the keyboard shortcut **cmd+shift+P**. Start typing **install** until *Package Control: Install Package* appears. Press **enter** and search for available packages. 
+2. You can now install packages by using the keyboard shortcut **cmd+shift+P**. Start typing **install** until *Package Control: Install Package* appears. Press **enter** and search for available packages.
 
 3. Some other relevant commands are:
 
    - *List Packages* shows all your installed packages
-   - *Remove Packages* removes a specific package  
+   - *Remove Packages* removes a specific package
    - *Upgrade Package* upgrades a specific package
    - *Upgrade/Overwrite All Packages* upgrades all your installed packages
 
@@ -79,7 +79,24 @@ To begin taking advantage of the various [packages](https://sublime.wbond.net/) 
 
 ### Create a Settings File
 
-1. In order to change the [default settings](http://www.sublimetext.com/docs/3/settings.html), click **Sublime Text > Preferences > Settings - User**. Add an empty array to the file and add your settings within the array, adding a comma after each one but the last.
+You can fully configure Sublime Text using JSON-based settings files, making it easy to transfer, or synchronize, your customized settings to another system. Simply upload your settings files to Dropbox and load them from there. First, we need to create our customized settings. It's best to create a base file for all enviornments as well as language-specific settings.
+
+1. To set up a base file click **Sublime Text > Preferences > Settings - User**. Add an empty array to the file and add your settings within the array, including a comma after each one but the last.
+
+For example:
+
+  ```json
+  {
+      // base settings
+      "auto_complete": false,
+      "sublimelinter": false,
+      "tab_size": 2,
+      "word_wrap": true
+  }
+
+2. For language specific settings click **Sublime Text > Preferences > Settings - More > Syntax Specific - User**. Then save the file using the following format: *LANGUAGE.sublime-settings*. So, for Python-specific settings, save the file as *Python.sublime-settings*.
+
+3. You can obviously configure your settings to your liking; however, I highly recommend starting with my [base](http://link.here) and [Python-specific](http://link.here) settings - then making changes as you see fit.
 
 ## Themes
 
@@ -90,6 +107,7 @@ djanro
 gitgutter
 git
 requirements.txt
+VenvPy3.sublime-build
 
 ## Custom Commands
 
