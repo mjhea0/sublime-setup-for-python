@@ -26,6 +26,12 @@ $ ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" /usr/
 
 ## Packages
 
+anacanda
+djanro
+gitgutter
+git
+requirements.txt
+
 ## Custom Commands
 
 1. Close all windows except the active
