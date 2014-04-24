@@ -79,7 +79,7 @@ To begin taking advantage of the various [packages](https://sublime.wbond.net/) 
 
 ### Create a Settings File
 
-You can fully configure Sublime Text using JSON-based settings files, making it easy to transfer, or synchronize, your customized settings to another system. Simply upload your settings files to Dropbox and load them from there. First, we need to create our customized settings. It's best to create a base file for all enviornments as well as language-specific settings.
+You can fully configure Sublime Text using JSON-based settings files, making it easy to transfer, or synchronize, your customized settings to another system. Simply upload your settings files to Dropbox and load them from there to sync all your machines. First, we need to create our customized settings. It's best to create a base file for all enviornments as well as language-specific settings files.
 
 1. To set up a base file click **Sublime Text > Preferences > Settings - User**. Add an empty array to the file and add your settings within the array, including a comma after each one but the last.
 
