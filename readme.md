@@ -10,7 +10,7 @@ After downloading ST3 ...
 
 ### Install the `subl` command line tool
 
-Like the `mate` command for TextMate, Sublime Text includes a command line tool called [`subl`](http://www.sublimetext.com/docs/3/osx_command_line.html) that allows you to open a file from the command line. 
+Like the `mate` command for TextMate, Sublime Text includes a command line tool called **[`subl`](http://www.sublimetext.com/docs/3/osx_command_line.html)** that allows you to open a file from the command line. 
 
 1. To enable this command, create a symbolic link to the subl binary:
 
@@ -24,7 +24,7 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
   $ subl
   ```
 
-  If that didn't work, you probably need to add */bin* to your path:
+  If that didn't work, you probably need to add */bin* to your Path:
 
   ```bash
   $ echo "export PATH=~/bin:$PATH" >> ~/.profile
@@ -32,7 +32,7 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
 
   Then repeat step one.
 
-  If you are still having trouble, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
+  *If you are still having trouble, check out [this](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) article for help. Also, here are links for help on creating the symbolic links in [Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).*
 
 3. Now you can open a file or directory using the following commands: 
 
@@ -61,10 +61,11 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
 
 ### Install Package Control
 
-To begin taking advantage of the various [packages](https://sublime.wbond.net/) packages for extending Sublime's functionality, you need to install the package manager. You need to install this manually, then you can use Package Control to install all other packahes.
+To begin taking advantage of the various [packages](https://sublime.wbond.net/) for extending Sublime's functionality, you need to install the Package Control - which needs to be installed manually. Once installed, you can use Package Control to install all other packages.
 
-https://sublime.wbond.net/installation
+1. To install click **View > Show Console**, and then paste the Python code for Sublime Text 3 found [here](https://sublime.wbond.net/installation).
 
+2. You can install packages by using keyboard shortcut **cmd+shift+p**. Start typing **install** until "Package Control: Install Package" appears. Press **enter** and search for available packages. 
 
 ### Create a Settings File
 
