@@ -123,6 +123,8 @@ Besides the themes, I take advantage of the following packages to speed up produ
 
 Download this now!
 
+## Anacanda
+
 anacanda
 djanro
 gitgutter
