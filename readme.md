@@ -117,21 +117,40 @@ After installing a theme, make sure to update your base settings:
 
 Besides the themes, I take advantage of the following packages to speed up productivity.
 
-## SideBarEnhancements
+### SideBarEnhancements
 
-**[SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)** extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as "New file" and "Duplicate" are essential and should be part of ST3 out of the box - but they aren't. The "Delete" option alone makes it worth downloading. This feature simply sends files to the Trash, which may seem trivial but if you delete a file without it, there's no way to recover said file unless you're using a version control system.
+**[SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)** extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as "New file" and "Duplicate" are essential and should be part of ST3 out of the box - but they aren't. The "Delete" option alone makes it worth downloading. This feature simply sends files to the Trash, which may seem trivial but if you delete a file without it, it's very difficult recover unless you're using a version control system.
 
 Download this now!
 
-## Anacanda
+### Anacanda
 
-anacanda
-djanro
+**[Anacanda](https://sublime.wbond.net/packages/Anaconda)** is the ultimate Python package; it adds a number of IDE-like features to ST3 including:
+
+  - **Autocompletion** works by default, but there are a number of configuration [options](https://github.com/DamnWidget/anaconda#anaconda-autocompletion).
+  - **Code linting** uses either PyLint or PyFlakes with pep8. I personally use a different liting package, so I disable linting altogether within the user-defined Anaconda settings file, *Anaconda.sublime-settings*.
+
+    ```json
+    {
+        "anaconda_linting": false,
+    }
+    ```
+
+  - **McCabe code complexity checker** runs the [McCabe complexity checker](http://en.wikipedia.org/wiki/Cyclomatic_complexity) tool in a specific file.
+  - **Goto Definitions** finds and displays the definition of any variable, function, or class throughout your entire project.
+  - **Find Usage** quickly searches where a variable, function, or class has been used in a specific file.
+  - **Show Documentation**: shows the Docstring for functions or classes (if defined, of course)
+
+  You can view all of the features [here](https://github.com/DamnWidget/anaconda). Or within the README file within the Package Settings: **Sublime Text > Preferences > Package Settings > Anaconda > README**.
+
+### Djaneiro
+
 gitgutter
 git
 requirements.txt
 VenvPy3.sublime-build
 SFTP
+advancednewfile
 
 
 ## Custom Commands
