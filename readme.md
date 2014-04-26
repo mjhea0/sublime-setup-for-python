@@ -149,12 +149,20 @@ Download this now!
 
 ### Djaneiro
 
+**[Djaneiro](https://sublime.wbond.net/packages/Djaneiro)** provides support Django templating and keyword highlighting as well as useful code snippets (tab completions) for Sublime Text. The snippet system is an incredible timesaver. You can create common Django blocks with only a few keystrokes for templates, models, forms, and views. Check out the official [documenatation](https://github.com/squ1b3r/Djaneiro) to see a list of snippets.
+
+My personal favorites are for templating: `var` creates `{{ }}` and `tag` creates `{% %}`
+
+### GitGutter
+
 gitgutter
 git
 requirements.txt
 VenvPy3.sublime-build
 SFTP
 advancednewfile
+emmet
+csscomb
 
 
 ## Custom Commands
