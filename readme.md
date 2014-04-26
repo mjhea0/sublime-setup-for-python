@@ -155,7 +155,13 @@ My personal favorites are for templating: `var` creates `{{ }}` and `tag` create
 
 ### requirementstxt
 
-### Linter
+**[Requirementstxt](https://sublime.wbond.net/packages/requirementstxt)** provides autocompletion and syntax highlightlighting as well as a nice and version management system for your *requirements.txt* files.
+
+As soon as you start to type the package name the autocomplete should trigger.
+
+### SublimeLinter
+
+**[SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)**
 
 ### GitGutter
 
