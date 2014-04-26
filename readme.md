@@ -153,11 +153,16 @@ Download this now!
 
 My personal favorites are for templating: `var` creates `{{ }}` and `tag` creates `{% %}`
 
+### requirementstxt
+
+### Linter
+
 ### GitGutter
 
-gitgutter
-git
-requirements.txt
+**[GitGutter](https://sublime.wbond.net/packages/GitGutter)** shows little icons in ST3's gutter area that indicate whether a line has been insereted, modified, or deleted since the last commit.
+
+
+
 VenvPy3.sublime-build
 SFTP
 advancednewfile
