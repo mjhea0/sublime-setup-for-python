@@ -208,7 +208,7 @@ I personally set the password to `null` because I don't want it visible in that 
 
 ### AdvancedNewFile
 
-[AdvancedNewFile]((https://sublime.wbond.net/packages/AdvancedNewFile)) is used to create a new folder or file from within ST3 completely with keybindings:
+[AdvancedNewFile](https://sublime.wbond.net/packages/AdvancedNewFile) is used to create a new folder or file from within ST3 completely with keybindings:
 
 *Simply bring up the AdvancedNewFile input through the appropriate key binding. Then, enter the path, along with the file name into the input field. Upon pressing enter, the file will be created. In addition, if the directories specified do not yet exists, they will also be created. ... By default, the path to the file being created will be filled shown in the status bar as you enter the path information.*
 
