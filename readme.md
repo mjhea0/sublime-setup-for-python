@@ -186,7 +186,7 @@ You can customize each linter in the user-defined *SublimeLinter.sublime-setting
 
 ### FTPSync
 
-**[FTPSync](https://sublime.wbond.net/packages/FTPSync)** syncs your project with your remote files. Simply open the file to download it (if the remote file is newer than your local file) and save it to upload it to your remote server. Great way to keep your local and remotes in sync. You'll want to make sure to add at least one remote connection by clicking **Sublime Text > Preferences > Package Settings > FTPSync > Setup FTPSync**.
+**[FTPSync](https://sublime.wbond.net/packages/FTPSync)** syncs your project with your remote files. Simply *open* the file to download it (if the remote file is newer than your local file) and upload it to your remote server with every *save*. Great way to keep your local and remotes in sync. You'll want to make sure to add at least one remote connection by clicking **Sublime Text > Preferences > Package Settings > FTPSync > Setup FTPSync**.
 
 Sample settings:
 
