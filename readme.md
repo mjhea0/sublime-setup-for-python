@@ -159,7 +159,9 @@ My personal favorites are for templating: `var` creates `{{ }}` and `tag` create
 
 ### SublimeLinter
 
-**[SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)** is a framework for ST3 linters. The package itself does not actualy include any actual linters; those must be installed seperately through Package Control with the name **SublimeLinter-<linter>**.
+**[SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)** is a framework for ST3 linters. The package itself does not actualy include any actual linters; those must be installed seperately via Package Control using the **SublimeLinter-<linter>** naming syntax.
+
+For Python linting, I recommend the following linters:
 
 
 ### GitGutter
