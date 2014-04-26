@@ -184,10 +184,29 @@ You can customize each linter in the user-defined *SublimeLinter.sublime-setting
 
 **[GitGutter](https://sublime.wbond.net/packages/GitGutter)** shows little icons in ST3's gutter area that indicate whether a line has been insereted, modified, or deleted since the last commit.
 
+### FTPSync
+
+**[FTPSync](https://sublime.wbond.net/packages/FTPSync)** syncs your project with your remote files. Simply open the file to download it (if the remote file is newer than your local file) and save it to upload it to your remote server. Great way to keep your local and remotes in sync. You'll want to make sure to add at least one remote connection by clicking **Sublime Text > Preferences > Package Settings > FTPSync > Setup FTPSync**.
+
+Sample settings:
+
+```json
+{
+  'primary': {
+    host: 'ftp.mywebsite.com',
+    username: 'johnsmith',
+    password: 'secretpassword',
+    path: '/www/',
+
+    upload_on_save: true,
+    tls: true
+  }
+}
+```
+
+I personally set the password to `null` because I don't want it visible in that file. FTPSync just asks for my password each time.
 
 
-VenvPy3.sublime-build
-SFTP
 advancednewfile
 emmet
 csscomb
