@@ -1,8 +1,12 @@
-# Sublime Text 3 for Python Development
+# Setting up Sublime Text 3 for Full Stack Python Development
 
-[Sublime Text 3](http://www.sublimetext.com/3) (ST3) is lightweight, cross-platform text editor known for its speed, ease of use, and strong community support. It's an incredible editor right out of the box, but the real power comes from the ability to enhance its functionality using Package Control. In this article, we'll look at how to setup Sublime Text for Python development, enhance the basic functionality with custom themes and packages, and use many of the commands, features, and keyword shortcuts that make ST3 so powerful.
+[Sublime Text 3](http://www.sublimetext.com/3) (ST3) is lightweight, cross-platform text editor known for its speed, ease of use, and strong community support. It's an incredible editor right out of the box, but the real power comes from the ability to enhance its functionality using Package Control. In this article, we'll look at how to setup Sublime Text for full stack Python development, enhance the basic functionality with custom themes and packages, and use many of the commands, features, and keyword shortcuts that make ST3 so powerful.
 
 > This tutorial assumes you're using a Mac and are comfortable with the terminal. If you're using Windows or Linux many of the commands will vary, but you should be able to use Google to find the answers quickly given the info in this tutorial.
+
+Before we start, let's address what I mean exactly by "full stack". In today's world of HTML5 and mobile development, Javascript is literally everywhere. Python coupled with a framework such as Django or Flask is not enough. To really develop a website from end to end, you must be familiar with Javascript (and the many Javascript freameworks), REST APIs, responsive design, and of course HTML and CSS. Thus, we need a development environment to handle not only Python but front end technologies as well - which I am going to show you how to setup.
+
+Let's get to it.
 
 ## Setting up ST3
 
@@ -136,12 +140,12 @@ Download this now!
     }
     ```
 
-  - **McCabe code complexity checker** runs the [McCabe complexity checker](http://en.wikipedia.org/wiki/Cyclomatic_complexity) tool in a specific file.
+  - **McCabe code complexity checker** runs the [McCabe complexity checker](http://en.wikipedia.org/wiki/Cyclomatic_complexity) tool within a specific file.
   - **Goto Definitions** finds and displays the definition of any variable, function, or class throughout your entire project.
   - **Find Usage** quickly searches where a variable, function, or class has been used in a specific file.
   - **Show Documentation**: shows the Docstring for functions or classes (if defined, of course)
 
-  You can view all of the features [here](https://github.com/DamnWidget/anaconda). Or within the README file within the Package Settings: **Sublime Text > Preferences > Package Settings > Anaconda > README**.
+  You can view all of the features [here](https://github.com/DamnWidget/anaconda). Or within the README file in ST3's Package Settings: **Sublime Text > Preferences > Package Settings > Anaconda > README**.
 
 ### Djaneiro
 
