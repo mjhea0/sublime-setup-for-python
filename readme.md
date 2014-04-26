@@ -161,11 +161,11 @@ My personal favorites are for templating: `var` creates `{{ }}` and `tag` create
 
 **[SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)** is a framework for ST3 linters. The package itself does not include any actual linters; those must be installed seperately via Package Control using the **SublimeLinter-[linter_name]** naming syntax. You can view official linters [here](https://github.com/SublimeLinter). There are also a number of third party linters, which can be viewed in Package Control.
 
-For Python linting, I recommend using **[SublimeLinter-pyflakes](https://sublime.wbond.net/packages/SublimeLinter-pyflakes)** and **[SublimeLinter-pep8](https://sublime.wbond.net/packages/SublimeLinter-pep8)**
+For Python linting, I recommend using **[SublimeLinter-pyflakes](https://sublime.wbond.net/packages/SublimeLinter-pyflakes)** and **[SublimeLinter-pep8](https://sublime.wbond.net/packages/SublimeLinter-pep8)**.
 
-I also use **[SublimeLinter-jshint](https://sublime.wbond.net/packages/SublimeLinter-jshint)**, **[SublimeLinter-csslint](https://sublime.wbond.net/packages/SublimeLinter-csslint)**, **[SublimeLinter-html-tidy](https://sublime.wbond.net/packages/SublimeLinter-html-tidy)**, and [SublimeLinter-json](https://sublime.wbond.net/packages/SublimeLinter-json)
+I also use **[SublimeLinter-jshint](https://sublime.wbond.net/packages/SublimeLinter-jshint)**, **[SublimeLinter-csslint](https://sublime.wbond.net/packages/SublimeLinter-csslint)**, **[SublimeLinter-html-tidy](https://sublime.wbond.net/packages/SublimeLinter-html-tidy)**, and **[SublimeLinter-json](https://sublime.wbond.net/packages/SublimeLinter-json)**.
 
-> Most of these linters have dependencies associated with them, please read the installation instructions before installing.
+> Most of these linters have dependencies associated with them, so please read the installation instructions before installing.
 
 ### GitGutter
 
