@@ -167,6 +167,19 @@ I also use **[SublimeLinter-jshint](https://sublime.wbond.net/packages/SublimeLi
 
 > Most of these linters have dependencies associated with them, so please read the installation instructions before installing.
 
+You can customize each linter in the user-defined *SublimeLinter.sublime-settings* file. For example, I ignore the following pep8 erros and warnings:
+
+```json
+"pep8": {
+    "@disable": false,
+    "args": [],
+    "excludes": [],
+    "ignore": "E501,C0301,W0142,W0402,R0201,E1101,E1102,C0103,R0901,R0903,R0904,C1001,W0223,W0232,W0201,E1103,R0801,C0111",
+    "max-line-length": 100,
+    "select": ""
+},
+```
+
 ### GitGutter
 
 **[GitGutter](https://sublime.wbond.net/packages/GitGutter)** shows little icons in ST3's gutter area that indicate whether a line has been insereted, modified, or deleted since the last commit.
