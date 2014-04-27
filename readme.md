@@ -290,6 +290,7 @@ Once converted, the output file is updated on each subsequent save.
 1. **Goto Line Number ("ctrl+g")**: takes you to specific line number in an active file.
 1. **Goto Symbol ("cmd+r")**: lists all functions and classes within a file to make them easier to find. Simply start typing the one you want.
 1. **Go to beginning of line (cmd+left-arrow-key**) and **Go to end of line (cmd+right-arrow-key**)
+1. **Delete current line (ctrl+shift+k)**
 1. **Multi-Edit** is by far my favorite shortcut:
   - Select a word, press **"cmd+d"** to select the next same word, then press **ctrl+d** again to select the next same word...
   - Press **"cmd+click"** to create a cursor for editing every where you click
