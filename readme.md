@@ -299,7 +299,7 @@ Once converted, the output file is updated on each subsequent save.
 It's easy to write your own custom commands and key bindings with Python. I currently use ...
 
 1. Copy the path of the current file to the clipboard - [link](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/copy_path_to_clipboard.py)
-2. Close all tabs except the active one - link
+2. Close all tabs except the active one - [link](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/close_tabs.py)
 3. Delete a line within a file - link
 
 Install these by adding the Python files to your "/Sublime Text 3/Packages/User" directory, and then bind them from the *Key Bindings - User* file (**Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**).
