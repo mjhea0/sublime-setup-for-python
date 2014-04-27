@@ -213,9 +213,7 @@ You can customize each linter in the user-defined *SublimeLinter.sublime-setting
 
 **[GitGutter](https://sublime.wbond.net/packages/GitGutter)** shows little icons in ST3's gutter area that indicate whether a line has been insereted, modified, or deleted since the last commit.
 
-Subtraction
-Subtraction
-Subtraction
+![st3_gitgutter](https://raw.githubusercontent.com/mjhea0/sublime-setup-for-python/master/img/st3_gitgutter.png)
 
 ### FTPSync
 
