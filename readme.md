@@ -119,7 +119,7 @@ After installing a theme, make sure to update your base settings:
 
 ## Packages
 
-Besides the themes, I take advantage of the following packages to speed up productivity.
+Besides the themes, I take advantage of the following packages to speed up my workflow.
 
 ### SideBarEnhancements
 
@@ -222,10 +222,26 @@ I replaced the normal "super+n" command to create a new file with AdvancedNewFil
 
 ### Emmet
 
-[Emmet](https://sublime.wbond.net/packages/Emmet)
+[Emmet](https://sublime.wbond.net/packages/Emmet), previously known as Zen Coding, uses simple abbreviations to generate HTML or CSS code snippets.
 
-csscomb
-markdown
+For example, if your type a bang, `!`, then press tab in an HTML file the HTML5 doctype and a few basic tags are generated:
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+``
+
+Check out the offical [documentation](http://docs.emmet.io/) as well as this handy [cheat sheet](http://docs.emmet.io/cheat-sheet/)
+
+### Markdown Preview
 
 
 ## Custom Commands
