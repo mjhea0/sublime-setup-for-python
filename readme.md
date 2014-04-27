@@ -168,7 +168,9 @@ Download this now!
   - **McCabe code complexity checker** runs the [McCabe complexity checker](http://en.wikipedia.org/wiki/Cyclomatic_complexity) tool within a specific file.
   - **Goto Definitions** finds and displays the definition of any variable, function, or class throughout your entire project.
   - **Find Usage** quickly searches where a variable, function, or class has been used in a specific file.
-  - **Show Documentation**: shows the Docstring for functions or classes (if defined, of course)
+  - **Show Documentation**: shows the Docstring for functions or classes (if defined, of course).
+
+    ![st3_anaconda_show_docs](https://raw.githubusercontent.com/mjhea0/sublime-setup-for-python/master/img/st3_anaconda_show_docs.png)
 
   You can view all of the features [here](https://github.com/DamnWidget/anaconda). Or within the README file in ST3's Package Settings: **Sublime Text > Preferences > Package Settings > Anaconda > README**.
 
