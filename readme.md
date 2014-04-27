@@ -285,15 +285,14 @@ Once converted, the output file is updated on each subsequent save.
 ## Keyboard Shortcuts
 
 1. **Goto Anything ("cmd+p")**: is used for quickly finding and opening files. Just type in a part of a path and filename within a project and you can easily open that file. This is great for quickly opening files in large Django projects.
-2. **Goto Line Number ("ctrl+g")**: takes you to specific line number in an active file.
-3. **Goto Symbol ("cmd+r")**: lists all functions and classes within a file to make them easier to find. Simply start typing the one you want.
-4. **Multi-Edit** is by far my favorite shortcut:
+1. **Goto Line Number ("ctrl+g")**: takes you to specific line number in an active file.
+1. **Goto Symbol ("cmd+r")**: lists all functions and classes within a file to make them easier to find. Simply start typing the one you want.
+1. **Go to beginning of line (cmd+left-arrow-key**) and **Go to end of line (cmd+right-arrow-key**)
+1. **Multi-Edit** is by far my favorite shortcut:
   - Select a word, press **"cmd+d"** to select the next same word, then press **ctrl+d** again to select the next same word...
   - Press **"cmd+click"** to create a cursor for editing every where you click
 
 > For more shortcuts, take a look at [this](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html) article.
-
-start of a line, end of a line?
 
 ## Custom Commands
 
