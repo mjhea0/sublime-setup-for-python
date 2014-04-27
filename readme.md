@@ -137,7 +137,7 @@ After installing a theme, make sure to update your base settings:
 
 ## Packages
 
-Besides the themes, I take advantage of the following packages to speed up my workflow.
+Besides the packaged themes, I take advantage of the following packages to speed up my workflow.
 
 ### SideBarEnhancements
 
