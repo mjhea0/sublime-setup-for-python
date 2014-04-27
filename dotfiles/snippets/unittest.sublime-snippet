@@ -1,0 +1,15 @@
+<!-- Type testcase and press tab to insert a unittest.TestCase class -->
+
+<snippet>
+    <content><![CDATA[
+class ${1:ClassTestName}(unittest.TestCase):
+    def setUp(self):
+        ${2:pass}
+
+    def tearDown(self):
+        ${3:pass}
+    ]]></content>
+    <tabTrigger>testcase</tabTrigger>
+    <scope>source.python</scope>
+    <description>Adds a unittest TestCase skeleton at current pointer</description>
+</snippet>
