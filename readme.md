@@ -114,6 +114,7 @@ You can fully configure Sublime Text using JSON-based settings files, making it 
       "tab_size": 2,
       "word_wrap": true
   }
+  ```
 
 2. For language specific settings click **Sublime Text > Preferences > Settings - More > Syntax Specific - User**. Then save the file using the following format: *LANGUAGE.sublime-settings*. So, for Python-specific settings, save the file as *Python.sublime-settings*.
 
