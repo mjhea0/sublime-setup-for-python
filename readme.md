@@ -2,9 +2,11 @@
 
 [Sublime Text 3](http://www.sublimetext.com/3) (ST3) is lightweight, cross-platform text editor known for its speed, ease of use, and strong community support. It's an incredible editor right out of the box, but the real power comes from the ability to enhance its functionality using Package Control. In this article, we'll look at how to setup Sublime Text for full stack Python development, enhance the basic functionality with custom themes and packages, and use many of the commands, features, and keyword shortcuts that make ST3 so powerful.
 
-> This tutorial assumes you're using a Mac and are comfortable with the terminal. If you're using Windows or Linux many of the commands will vary, but you should be able to use Google to find the answers quickly given the info in this tutorial.
+> This tutorial assumes you're using a Mac and are comfortable with the terminal. If you're using Windows or Linux, many of the commands will vary, but you should be able to use Google to find the answers quickly given the info in this tutorial.
 
-Before we start, let's address what I mean exactly by "full stack". In today's world of HTML5 and mobile development, Javascript is literally everywhere. Python coupled with a framework such as Django or Flask is not enough. To really develop a website from end to end, you must be familiar with Javascript (and the many Javascript freameworks), REST APIs, responsive design, and of course HTML and CSS. Thus, we need a development environment to handle not only Python but front end technologies as well - which I am going to show you how to setup.
+Before we start, let's address what I mean exactly by "full stack".
+
+In today's world of HTML5 and mobile development, Javascript is literally everywhere. Python coupled with a framework such as Django or Flask is not enough. To really develop a website from end to end, you must be familiar with Javascript (and the many Javascript freameworks), REST APIs, responsive design, and of course HTML and CSS. Thus, we need a development environment to handle not only Python but front end technologies as well - which I am going to show you how to setup.
 
 Let's get to it.
 
@@ -212,11 +214,11 @@ I personally set the password to `null` because I don't want it visible in that 
 
 *Simply bring up the AdvancedNewFile input through the appropriate key binding. Then, enter the path, along with the file name into the input field. Upon pressing enter, the file will be created. In addition, if the directories specified do not yet exists, they will also be created. ... By default, the path to the file being created will be filled shown in the status bar as you enter the path information.*
 
-I replaced the normal "super+n" command to create a new file with AdvancedNewFile by adding the following code to the *Key Bindings - User* file (**Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**):
+I replaced the normal "cmd+n" command to create a new file with AdvancedNewFile by adding the following code to the *Key Bindings - User* file (**Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**):
 
 ```json
 [
-  { "keys": ["super+n"], "command": "advanced_new_file_new"}
+  { "keys": ["cmd+n"], "command": "advanced_new_file_new"}
 ]
 ```
 
@@ -277,4 +279,11 @@ Once converted, the output file is updated on each subsequent save.
 
 
 ### Keyboard Shortcuts
+
+1. **Go to Anywhere**: Use "cmd+p" to type in a part of a path and filename within a project and you can easily open that file.
+2.
+
+## Additional Resources
+
+http://docs.sublimetext.info/en/latest/index.html
 
