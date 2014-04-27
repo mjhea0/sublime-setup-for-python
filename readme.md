@@ -88,18 +88,20 @@ Like the `mate` command for TextMate, Sublime Text includes a command line tool 
 
 To begin taking advantage of the various [packages](https://sublime.wbond.net/) for extending Sublime's functionality, you need to install the package manager called **Package Control** - which needs to be installed manually. Once installed, you can use Package Control to install/remove/upgrade all other ST3 packages.
 
-1. To install copy the Python code for Sublime Text 3 found [here](https://sublime.wbond.net/installation#st3). Click **View > Show Console** to open the ST3 console. Paste the code into the console. Press **enter**. Reboot ST3.
+1. To install, copy the Python code for Sublime Text 3 found [here](https://sublime.wbond.net/installation#st3). Click **View > Show Console** to open the ST3 console. Paste the code into the console. Press **enter**. Reboot ST3.
 
 2. You can now install packages by using the keyboard shortcut **cmd+shift+P**. Start typing **install** until *Package Control: Install Package* appears. Press **enter** and search for available packages.
 
 3. Some other relevant commands are:
 
-   - *List Packages* shows all your installed packages
-   - *Remove Packages* removes a specific package
-   - *Upgrade Package* upgrades a specific package
-   - *Upgrade/Overwrite All Packages* upgrades all your installed packages
+  - *List Packages* shows all your installed packages
+  - *Remove Packages* removes a specific package
+  - *Upgrade Package* upgrades a specific package
+  - *Upgrade/Overwrite All Packages* upgrades all your installed packages
 
-   Check out the official [documentation](https://sublime.wbond.net/docs/usage) to view more commands.
+  Check out the official [documentation](https://sublime.wbond.net/docs/usage) to view more commands.
+
+  ![st3_package_control](https://raw.githubusercontent.com/mjhea0/sublime-setup-for-python/master/img/st3_package_control.png)
 
 ### Create a Settings File
 
@@ -288,6 +290,8 @@ Once converted, the output file is updated on each subsequent save.
   - Press **"cmd+click"** to create a cursor for editing every where you click
 
 > For more shortcuts, take a look at [this](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html) article.
+
+start of a line, end of a line?
 
 ### Custom Commands
 
