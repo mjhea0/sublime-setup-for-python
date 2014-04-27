@@ -190,7 +190,7 @@ My personal favorites are for templating: `var` creates `{{ }}` and `tag` create
 
 For Python linting, I recommend using **[SublimeLinter-pyflakes](https://sublime.wbond.net/packages/SublimeLinter-pyflakes)** and **[SublimeLinter-pep8](https://sublime.wbond.net/packages/SublimeLinter-pep8)**.
 
-I also use **[SublimeLinter-jshint](https://sublime.wbond.net/packages/SublimeLinter-jshint)**, **[SublimeLinter-csslint](https://sublime.wbond.net/packages/SublimeLinter-csslint)**, **[SublimeLinter-html-tidy](https://sublime.wbond.net/packages/SublimeLinter-html-tidy)**, and **[SublimeLinter-json](https://sublime.wbond.net/packages/SublimeLinter-json)**.
+I also use **[SublimeLinter-jshint](https://sublime.wbond.net/packages/SublimeLinter-jshint)**, **[SublimeLinter-pyyaml](https://sublime.wbond.net/packages/SublimeLinter-pyyaml)**, **[SublimeLinter-csslint](https://sublime.wbond.net/packages/SublimeLinter-csslint)**, **[SublimeLinter-html-tidy](https://sublime.wbond.net/packages/SublimeLinter-html-tidy)**, and **[SublimeLinter-json](https://sublime.wbond.net/packages/SublimeLinter-json)**.
 
 > Most of these linters have dependencies associated with them, so please read the installation instructions before installing.
 
