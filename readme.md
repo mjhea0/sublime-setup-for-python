@@ -18,7 +18,6 @@ Let's start by looking at a few of the default features ...
 1. **[Vintage Mode](http://www.sublimetext.com/docs/3/vintage.html)** provides you with vi commands for use within ST.
 1. **Chrome-like Tabs** make navigating and editing several files much simplier.
 1. **Code Snippets**: increases your productivity by giving you the ability to create common pieces of code with a single keyword. There are a number of default snippets. For example, open a new file a type in "lorem" then press tab. You should get a paragraph of lorem ipsum text. Try typing "defs" then press tab in a Python file. You should get:
-
   ```python
   def function(self):
       pass
