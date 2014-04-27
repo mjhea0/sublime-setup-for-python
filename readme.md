@@ -150,6 +150,8 @@ Besides the packaged themes, I take advantage of the following packages to speed
 
 **[SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)** extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as "New file" and "Duplicate" are essential and should be part of ST3 out of the box - but they aren't. The "Delete" option alone makes it worth downloading. This feature simply sends files to the Trash, which may seem trivial but if you delete a file without it, it's very difficult recover unless you're using a version control system.
 
+![st3_sidebar_enhancements](https://raw.githubusercontent.com/mjhea0/sublime-setup-for-python/master/img/st3_sidebar_enhancements.png)
+
 Download this now!
 
 ### Anacanda
