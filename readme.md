@@ -298,9 +298,9 @@ Once converted, the output file is updated on each subsequent save.
 
 It's easy to write your own custom commands and key bindings with Python. I currently use ...
 
-1. Copy the path of the current file to the clipboard
-2. Close all tabs except the active one
-3. Delete a line within a file
+1. Copy the path of the current file to the clipboard - link
+2. Close all tabs except the active one - link
+3. Delete a line within a file - link
 
 Install these by adding the Python files to your "/Sublime Text 3/Packages/User" directory, and then bind them from the *Key Bindings - User* file (**Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**).
 
