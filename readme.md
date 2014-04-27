@@ -102,7 +102,7 @@ You can fully configure Sublime Text using JSON-based settings files, making it 
 
 3. You can obviously configure your settings to your liking; however, I highly recommend starting with my [base](http://link.here) and [Python-specific](http://link.here) settings - then making changes as you see fit.
 
-## Themes
+### Themes
 
 ST3 also gives you the option to change the overall theme to better suit your personality. Design your own. Or, if you're not artistically inclined, you can download one of the various custom [themes](https://sublime.wbond.net/browse/labels/theme) designed by the Sublime community through Package Control. Check out [ColorSublime](http://colorsublime.com/) to preview themes before installing them.
 
@@ -117,17 +117,17 @@ After installing a theme, make sure to update your base settings:
 }
 ```
 
-## Packages
+### Packages
 
 Besides the themes, I take advantage of the following packages to speed up my workflow.
 
-### SideBarEnhancements
+#### SideBarEnhancements
 
 **[SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)** extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as "New file" and "Duplicate" are essential and should be part of ST3 out of the box - but they aren't. The "Delete" option alone makes it worth downloading. This feature simply sends files to the Trash, which may seem trivial but if you delete a file without it, it's very difficult recover unless you're using a version control system.
 
 Download this now!
 
-### Anacanda
+#### Anacanda
 
 **[Anacanda](https://sublime.wbond.net/packages/Anaconda)** is the ultimate Python package; it adds a number of IDE-like features to ST3 including:
 
@@ -147,17 +147,17 @@ Download this now!
 
   You can view all of the features [here](https://github.com/DamnWidget/anaconda). Or within the README file in ST3's Package Settings: **Sublime Text > Preferences > Package Settings > Anaconda > README**.
 
-### Djaneiro
+#### Djaneiro
 
 **[Djaneiro](https://sublime.wbond.net/packages/Djaneiro)** supports Django templating and keyword highlighting and provides useful code snippets (tab completions) for Sublime Text. The snippet system is an incredible timesaver. You can create common Django blocks with only a few keystrokes for templates, models, forms, and views. Check out the official [documenatation](https://github.com/squ1b3r/Djaneiro) to see a list of snippets.
 
 My personal favorites are for templating: `var` creates `{{ }}` and `tag` creates `{% %}`
 
-### requirementstxt
+#### requirementstxt
 
 **[Requirementstxt](https://sublime.wbond.net/packages/requirementstxt)** provides autocompletion and syntax highlightlighting as well as a nice version management system for your *requirements.txt* files.
 
-### SublimeLinter
+#### SublimeLinter
 
 **[SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)** is a framework for ST3 linters. The package itself does not include any actual linters; those must be installed seperately via Package Control using the **SublimeLinter-[linter_name]** naming syntax. You can view official linters [here](https://github.com/SublimeLinter). There are also a number of third party linters, which can be viewed in Package Control.
 
@@ -180,11 +180,11 @@ You can customize each linter in the user-defined *SublimeLinter.sublime-setting
 },
 ```
 
-### GitGutter
+#### GitGutter
 
 **[GitGutter](https://sublime.wbond.net/packages/GitGutter)** shows little icons in ST3's gutter area that indicate whether a line has been insereted, modified, or deleted since the last commit.
 
-### FTPSync
+#### FTPSync
 
 **[FTPSync](https://sublime.wbond.net/packages/FTPSync)** syncs your project with your remote files. Simply *open* the file to download it (if the remote file is newer than your local file) and upload it to your remote server with every *save*. Great way to keep your local and remotes in sync. You'll want to make sure to add at least one remote connection by clicking **Sublime Text > Preferences > Package Settings > FTPSync > Setup FTPSync**.
 
@@ -206,7 +206,7 @@ Sample settings:
 
 I personally set the password to `null` because I don't want it visible in that file. FTPSync just asks for my password after each save.
 
-### AdvancedNewFile
+#### AdvancedNewFile
 
 **[AdvancedNewFile](https://sublime.wbond.net/packages/AdvancedNewFile)** is used to create a new folder or file from within ST3 completely with key bindings:
 
@@ -220,11 +220,7 @@ I replaced the normal "super+n" command to create a new file with AdvancedNewFil
 ]
 ```
 
-### SublimeREPL
-
-***[SublimeREPL]()***
-
-### Emmet
+#### Emmet
 
 **[Emmet](https://sublime.wbond.net/packages/Emmet)**, previously known as Zen Coding, uses simple abbreviations to generate HTML or CSS code snippets.
 
@@ -245,7 +241,7 @@ For example, if your type a bang, `!`, then press tab in an HTML file the HTML5 
 
 Check out the offical [documentation](http://docs.emmet.io/)** as well as this handy [cheat sheet](http://docs.emmet.io/cheat-sheet/) for more info.
 
-### Markdown Preview
+#### Markdown Preview
 
 **[Markdown Preview](https://sublime.wbond.net/packages/Markdown%20Preview)** is used for previewing and building markdown files.
 
@@ -261,13 +257,13 @@ To use, open the Package Manager then type **Markdown Preview** to show the avai
 
 Once converted, the output file is updated on each subsequent save.
 
-## Custom Commands
+### Custom Commands
 
 1. Close all windows except the active
 
-## Using ST3
+## Use Sublime Text 3
 
-## Features
+### Features
 
 1. Split layouts: Have your tests on one side and your code on another
 2. Chrome-like Tabs
@@ -280,5 +276,5 @@ Once converted, the output file is updated on each subsequent save.
 9. Saved history if you accidently close
 
 
-## Keyboard Shortcuts
+### Keyboard Shortcuts
 
