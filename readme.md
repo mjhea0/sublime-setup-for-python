@@ -85,7 +85,7 @@ To begin taking advantage of the various [packages](https://sublime.wbond.net/) 
 
 ### Create a Settings File
 
-You can fully configure Sublime Text using JSON-based settings files, making it easy to transfer, or synchronize, your customized settings to another system. Simply upload your settings files to Dropbox and load them from there to sync all your machines. First, we need to create our customized settings. It's best to create a base file for all enviornments as well as language-specific settings files.
+You can fully configure Sublime Text using JSON-based settings files, making it easy to transfer, or synchronize, your customized settings to another system. Simply upload your settings files to [Dropbox](https://github.com/miohtama/ztanesh/blob/master/zsh-scripts/bin/setup-sync-sublime-over-dropbox.sh) and load them from there to sync all your machines. First, we need to create our customized settings. It's best to create a base file for all enviornments as well as language-specific settings files.
 
 1. To set up a base file click **Sublime Text > Preferences > Settings - User**. Add an empty array to the file and add your settings within the array, including a comma after each one but the last.
 
@@ -281,9 +281,10 @@ Once converted, the output file is updated on each subsequent save.
 ### Keyboard Shortcuts
 
 1. **Go to Anywhere**: Use "cmd+p" to type in a part of a path and filename within a project and you can easily open that file.
-2.
+2. **Go to Line Number: Use "cmd+g" to go to a specific line number in an open file.
+3. **In-file Search: Use "cmd+r" to search for a function or class within a file.
 
 ## Additional Resources
 
-http://docs.sublimetext.info/en/latest/index.html
+1. Community-maintained documentation: [http://docs.sublimetext.info/en/latest/index.html](http://docs.sublimetext.info/en/latest/index.html)
 
