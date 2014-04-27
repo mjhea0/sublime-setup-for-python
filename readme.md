@@ -20,6 +20,7 @@ Let's start by looking at a few of the default features ...
 
 1. **[Vintage Mode](http://www.sublimetext.com/docs/3/vintage.html)** provides you with vi commands for use within ST3.
 1. **Chrome-like Tabs** make navigating and editing several files much simplier.
+1. **Automatic loading of the last session** re-opens all files and folders you had open when you closed the editor the last time. I leave ST3 open all the time, with various projects open - so if I reset the computer, it open the files and folders right back up.
 1. **Code Snippets**: increase your productivity by giving you the ability to create common pieces of code with a single keyword. There are a number of default snippets. For example, open a new file and type in "lorem" then press tab. You should get a paragraph of lorem ipsum text. Try typing "defs" then press tab in a Python file. You should get:
   ```python
   def function(self):
