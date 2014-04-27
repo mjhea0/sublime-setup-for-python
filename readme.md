@@ -103,7 +103,7 @@ To begin taking advantage of the various [packages](https://sublime.wbond.net/) 
 
   ![st3_package_control](https://raw.githubusercontent.com/mjhea0/sublime-setup-for-python/master/img/st3_package_control.png)
 
-### Create a Settings File
+### Create a Custom Settings File
 
 You can fully configure Sublime Text using JSON-based settings files, making it easy to transfer, or synchronize, your customized settings to another system. Simply upload your settings files to [Dropbox](https://github.com/miohtama/ztanesh/blob/master/zsh-scripts/bin/setup-sync-sublime-over-dropbox.sh) and load them from there to sync all your machines. First, we need to create our customized settings. It's best to create a base file for all enviornments as well as language-specific settings files.
 
