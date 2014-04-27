@@ -26,8 +26,6 @@ Let's start by looking at a few of the default features ...
 
   You can also create your own snippets: **Tools > New Snippet**. Refer to the [documentation](http://sublimetext.info/docs/en/extensibility/snippets.html) for help. Check out some of my snippets here.
 
-1. Saved history if you accidently close
-
 ## Setting up Sublime Text 3
 
 After downloading ST3 ...
