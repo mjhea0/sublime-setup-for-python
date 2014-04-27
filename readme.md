@@ -239,7 +239,7 @@ For example, if your type a bang, `!`, then press tab in an HTML file the HTML5 
 </html>
 ```
 
-Check out the offical [documentation](http://docs.emmet.io/) as well as this handy [cheat sheet](http://docs.emmet.io/cheat-sheet/)
+Check out the offical [documentation](http://docs.emmet.io/) as well as this handy [cheat sheet](http://docs.emmet.io/cheat-sheet/) for more info.
 
 ### Markdown Preview
 
