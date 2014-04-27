@@ -282,7 +282,7 @@ To use, open the Package Manager then type **Markdown Preview** to show the avai
 
 Once converted, the output file is updated on each subsequent save.
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 1. **Goto Anything ("cmd+p")**: is used for quickly finding and opening files. Just type in a part of a path and filename within a project and you can easily open that file. This is great for quickly opening files in large Django projects.
 2. **Goto Line Number ("ctrl+g")**: takes you to specific line number in an active file.
@@ -295,7 +295,7 @@ Once converted, the output file is updated on each subsequent save.
 
 start of a line, end of a line?
 
-### Custom Commands
+## Custom Commands
 
 It's easy to write your own custom commands and key bindings with Python. I currently use...
 
