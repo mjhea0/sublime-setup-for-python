@@ -208,7 +208,7 @@ I personally set the password to `null` because I don't want it visible in that 
 
 ### AdvancedNewFile
 
-[AdvancedNewFile](https://sublime.wbond.net/packages/AdvancedNewFile) is used to create a new folder or file from within ST3 completely with key bindings:
+**[AdvancedNewFile](https://sublime.wbond.net/packages/AdvancedNewFile)** is used to create a new folder or file from within ST3 completely with key bindings:
 
 *Simply bring up the AdvancedNewFile input through the appropriate key binding. Then, enter the path, along with the file name into the input field. Upon pressing enter, the file will be created. In addition, if the directories specified do not yet exists, they will also be created. ... By default, the path to the file being created will be filled shown in the status bar as you enter the path information.*
 
@@ -220,9 +220,13 @@ I replaced the normal "super+n" command to create a new file with AdvancedNewFil
 ]
 ```
 
+### SublimeREPL
+
+***[SublimeREPL]()***
+
 ### Emmet
 
-[Emmet](https://sublime.wbond.net/packages/Emmet), previously known as Zen Coding, uses simple abbreviations to generate HTML or CSS code snippets.
+**[Emmet](https://sublime.wbond.net/packages/Emmet)**, previously known as Zen Coding, uses simple abbreviations to generate HTML or CSS code snippets.
 
 For example, if your type a bang, `!`, then press tab in an HTML file the HTML5 doctype and a few basic tags are generated:
 
@@ -239,10 +243,23 @@ For example, if your type a bang, `!`, then press tab in an HTML file the HTML5 
 </html>
 ```
 
-Check out the offical [documentation](http://docs.emmet.io/) as well as this handy [cheat sheet](http://docs.emmet.io/cheat-sheet/) for more info.
+Check out the offical [documentation](http://docs.emmet.io/)** as well as this handy [cheat sheet](http://docs.emmet.io/cheat-sheet/) for more info.
 
 ### Markdown Preview
 
+**[Markdown Preview](https://sublime.wbond.net/packages/Markdown%20Preview)** is used for previewing and building markdown files.
+
+To use, open the Package Manager then type **Markdown Preview" to show the available commands:
+
+- Markdown Preview: Python Markdown: Preview in Browser
+- Markdown Preview: Python Markdown: Export HTML in Sublime Text
+- Markdown Preview: Python Markdown: Copy to Clipboard
+- Markdown Preview: Github Flavored Markdown: Preview in Browser
+- Markdown Preview: Github Flavored Markdown: Export HTML in Sublime Text
+- Markdown Preview: Github Flavored Markdown: Copy to Clipboard
+- Markdown Preview: Open Markdown Cheat sheet
+
+Once converted, the output file is updated on each subsequent save.
 
 ## Custom Commands
 
