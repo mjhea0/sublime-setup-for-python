@@ -123,7 +123,7 @@ You can fully configure Sublime Text using JSON-based settings files, making it 
 
 2. For language specific settings click **Sublime Text > Preferences > Settings - More > Syntax Specific - User**. Then save the file using the following format: *LANGUAGE.sublime-settings*. So, for Python-specific settings, save the file as *Python.sublime-settings*.
 
-3. You can obviously configure your settings to your liking; however, I highly recommend starting with my [base](http://link.here) and [Python-specific](http://link.here) settings - then making changes as you see fit.
+3. You can obviously configure your settings to your liking; however, I highly recommend starting with my [base](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Preferences.sublime-settings) and [Python-specific](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Python.sublime-settings) settings - then making changes as you see fit.
 
 4. Optional: You can use Dropbox to sync all your settings. Simply upload your settings files to [Dropbox](https://github.com/miohtama/ztanesh/blob/master/zsh-scripts/bin/setup-sync-sublime-over-dropbox.sh) and load them from there to sync all your machines.
 
