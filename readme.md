@@ -325,9 +325,9 @@ For example:
 
 ## Additional Resources
 
-1. Community-maintained documentation: [http://docs.sublimetext.info/en/latest/index.html](http://docs.sublimetext.info/en/latest/index.html)
-2. Package Manager documentation: [https://sublime.wbond.net/docs](https://sublime.wbond.net/docs)
-3. Unoffical documentatuon reference: [http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/reference.html](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/reference.html)
+1. [Community-maintained documentation](http://docs.sublimetext.info/en/latest/index.html)
+2. [Package Manager documentation](https://sublime.wbond.net/docs)
+3. [Unoffical documentatuon reference](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/reference.html)
 
 ## Conclusion
 
