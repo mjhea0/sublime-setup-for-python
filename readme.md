@@ -280,9 +280,9 @@ Once converted, the output file is updated on each subsequent save.
 
 ### Keyboard Shortcuts
 
-1. **Go to Anywhere**: Use "cmd+p" to type in a part of a path and filename within a project and you can easily open that file.
-2. **Go to Line Number: Use "cmd+g" to go to a specific line number in an open file.
-3. **In-file Search: Use "cmd+r" to search for a function or class within a file.
+1. **Go to Anywhere ("cmd+p")**: type in a part of a path and filename within a project and you can easily open that file
+2. **Go to Line Number ("cmd+g)**: go to a specific line number in an open file
+3. **In-file Search ("cmd+r")**: search for a function or class within a file
 
 ## Additional Resources
 
