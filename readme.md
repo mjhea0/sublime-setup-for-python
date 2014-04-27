@@ -12,15 +12,14 @@ Let's get to it.
 
 ## Features
 
-1. Split layouts: Have your tests on one side and your code on another
-2. Chrome-like Tabs
-3. Command Palette
-4. File Switching
-5. Goto Symbols
-6. Multi-Edit
-7. Code Snippets
-8. Vim mode (perfect for pairing)
-9. Saved history if you accidently close
+Let's start by looking at a few of the default features ...
+
+1. **Split Layouts** allows you to arrange your files in various split-screen layouts. This is useful for test driven development - Python code on one screen, test scrips on another - or when working on the front end - HTML on one screen, CSS and/or Javascript on another.
+1. **[Vintage Mode](http://www.sublimetext.com/docs/3/vintage.html)** provides you with vi commands for use within ST.
+1. Chrome-like Tabs
+1. Command Palette
+1. Code Snippets
+1. Saved history if you accidently close
 
 ## Setting up Sublime Text 3
 
@@ -295,4 +294,9 @@ Install these by adding the Python files to your "/Sublime Text 3/Packages/User"
 ## Additional Resources
 
 1. Community-maintained documentation: [http://docs.sublimetext.info/en/latest/index.html](http://docs.sublimetext.info/en/latest/index.html)
-2. Package Manager documentation [https://sublime.wbond.net/docs](https://sublime.wbond.net/docs)
+2. Package Manager documentation: [https://sublime.wbond.net/docs](https://sublime.wbond.net/docs)
+3. Unoffical documentatuon reference: [http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/reference.html](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/reference.html)
+
+## Conclusion
+
+I hope this article was helpful to you and that you were able to integrate some of the above packages and custom settings along with your own based on your personal preferences to improve your workflow. If you have any comments or suggestions of your own, please let me know in the comments below. Cheers!
