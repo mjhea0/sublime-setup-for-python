@@ -296,7 +296,7 @@ Once converted, the output file is updated on each subsequent save.
 
 ## Custom Commands
 
-It's easy to write your own custom commands and key bindings with Python. I currently use...
+It's easy to write your own custom commands and key bindings with Python. I currently use ...
 
 1. Copy the path of the current file to the clipboard
 2. Close all tabs except the active one
