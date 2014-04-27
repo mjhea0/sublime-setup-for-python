@@ -285,7 +285,7 @@ Once converted, the output file is updated on each subsequent save.
 3. **Goto Symbol ("cmd+r")**: lists all functions and classes within a file to make them easier to find. Simply start typing the one you want.
 4. **Multi-Edit** is by far my favorite shortcut:
   - Select a word, press **"cmd+d"** to select the next same word, then press **ctrl+d** again to select the next same word...
-  - Press **"cmd+click"** to create a cursor to edit every where you click
+  - Press **"cmd+click"** to create a cursor for editing every where you click
 
 > For more shortcuts, take a look at [this](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html) article.
 
