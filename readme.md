@@ -14,7 +14,7 @@ In today's world of HTML5 and mobile development, Javascript is literally everyw
 
 Let's start by looking at a few of the default features ...
 
-1. **Split Layouts** allow you to arrange your files in various split-screen. This is useful for test driven development - Python code on one screen, test scrips on another - or when working on the front end - HTML on one screen, CSS and/or Javascript on another.
+1. **Split Layouts** allow you to arrange your files in various split-screens. This is useful for test driven development - Python code on one screen, test scrips on another - or when working on the front end - HTML on one screen, CSS and/or Javascript on another.
 
   ![st3_split_screen](https://raw.githubusercontent.com/mjhea0/sublime-setup-for-python/master/img/st3_split_screen.png)
 
