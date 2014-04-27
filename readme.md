@@ -12,7 +12,7 @@ In today's world of HTML5 and mobile development, Javascript is literally everyw
 
 Let's start by looking at a few of the default features ...
 
-1. **Split Layouts** allow you to arrange your files in various split-screen layouts. This is useful for test driven development - Python code on one screen, test scrips on another - or when working on the front end - HTML on one screen, CSS and/or Javascript on another.
+1. **Split Layouts** allow you to arrange your files in various split-screen. This is useful for test driven development - Python code on one screen, test scrips on another - or when working on the front end - HTML on one screen, CSS and/or Javascript on another.
 1. **[Vintage Mode](http://www.sublimetext.com/docs/3/vintage.html)** provides you with vi commands for use within ST3.
 1. **Chrome-like Tabs** make navigating and editing several files much simplier.
 1. **Code Snippets**: increases your productivity by giving you the ability to create common pieces of code with a single keyword. There are a number of default snippets. For example, open a new file a type in "lorem" then press tab. You should get a paragraph of lorem ipsum text. Try typing "defs" then press tab in a Python file. You should get:
