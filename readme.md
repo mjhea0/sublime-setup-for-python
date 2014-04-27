@@ -6,7 +6,7 @@
 
 Before we start, let's address what I mean exactly by "full stack".
 
-In today's world of HTML5 and mobile development, Javascript is literally everywhere. Python coupled with a framework such as Django or Flask is not enough. To really develop a website from end to end, you must be familiar with Javascript (and the many Javascript freameworks), REST APIs, responsive design, and of course HTML and CSS. Thus, we need a development environment to handle not only Python but front end technologies as well - which I am going to show you how to setup.
+In today's world of HTML5 and mobile development, Javascript is literally everywhere. Python coupled with a framework such as Django or Flask is not enough. To really develop a website from end to end, you must be familiar with Javascript (and the various Javascript frameworks), REST APIs, responsive design, and of course HTML and CSS. Thus, we need a development environment to handle not only Python but front end technologies as well - which I am going to show you how to setup.
 
 Let's get to it.
 
