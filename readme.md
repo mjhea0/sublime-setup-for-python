@@ -311,4 +311,6 @@ Install these by adding the Python files to your "/Sublime Text 3/Packages/User"
 
 ## Conclusion
 
-I hope this article was helpful to you and that you were able to integrate some of the above packages and custom settings along with your own based on your personal preferences to improve your workflow. If you have any comments or suggestions of your own, please let me know in the comments below. Cheers!
+I hope this article was helpful to you and that you were able to integrate some of the above packages and custom settings along with your own based on your personal preferences to improve your workflow. If you have any comments or suggestions of your own, please let me know in the comments below. Finally, check out the dotfiles folder in this [repo](https://github.com/mjhea0/sublime-setup-for-python/tree/master/dotfiles) to view all resources that I created.
+
+Cheers!
