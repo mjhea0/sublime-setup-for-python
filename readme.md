@@ -8,7 +8,7 @@ Before we start, let's address what I mean exactly by "full stack". In today's w
 
 Let's get to it.
 
-## Setting up ST3
+## Setup ST3
 
 After downloading ST3 ...
 
