@@ -249,7 +249,7 @@ Check out the offical [documentation](http://docs.emmet.io/)** as well as this h
 
 **[Markdown Preview](https://sublime.wbond.net/packages/Markdown%20Preview)** is used for previewing and building markdown files.
 
-To use, open the Package Manager then type **Markdown Preview" to show the available commands:
+To use, open the Package Manager then type **Markdown Preview** to show the available commands:
 
 - Markdown Preview: Python Markdown: Preview in Browser
 - Markdown Preview: Python Markdown: Export HTML in Sublime Text
