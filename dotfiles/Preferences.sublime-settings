@@ -4,7 +4,7 @@
     "auto_match_enabled": true,
     "bold_folder_labels": true,
     "caret_style": "solid",
-    "color_scheme": "Packages/User/Flatland Dark (SL).tmTheme",
+    "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
     "detect_indentation": true,
     "draw_indent_guides": true,
     "ensure_newline_at_eof_on_save": true,
